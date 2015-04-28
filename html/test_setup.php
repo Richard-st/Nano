@@ -32,7 +32,7 @@
     <?php
        //Connecting to Redis server on localhost
        $redis = new Redis();
-       $redis->connect('127.0.0.1', 6379);
+       $redis->connect('redisProd01', 6379);
     ?>
 
     <table style="border:1px;border-style:solid;border-collapse:collapse;border-spacing: 0; ">
